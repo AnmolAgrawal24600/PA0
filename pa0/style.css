@@ -1,0 +1,75 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+h2, h3, h5{
+	color: yellow;
+	font-family: Lucida Console;
+	font-weight: bold;
+}
+
+body{
+	background-color:rgb(152, 152, 223);
+	
+	background-repeat: no-repeat;
+}
+
+#header{
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	padding-left: 20px;
+}
+
+#container{
+	float: center;
+	margin: 20px;
+	padding: 20px;
+	
+	border-radius: 10px;
+}
+
+#plaintext{
+	margin: 20px;
+	padding: 20px;
+   border:black 4px;
+   border-style: solid;
+	border-radius: 15px;
+	outline: none;
+}
+#ciphertext{
+	margin: 20px;
+	padding: 20px;
+	border-radius: 15px;
+    border:black 4px;
+    border-style: solid;
+	outline: none;
+}
+#key{
+	margin: 20px;
+	padding: 10px;
+    border: black 5px;
+	border-radius: 15px;
+    border-style: solid;
+    
+	
+}
+
+.button{
+	margin: 20px;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background:lightcoral;
+	color: rgb(0, 5, 0);
+	border-spacing: 20px;
+	border: black 5px;
+    border-style: solid;
+	border-radius: 10px;
+	
+	cursor: pointer;
+	outline: none;
+}
+

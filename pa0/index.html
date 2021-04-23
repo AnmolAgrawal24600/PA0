@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC>
+
+<html lang="en">
+
+<head>
+	<link rel="stylesheet" href="style.css">
+	<meta charset="UTF-8" />
+	<title>Caesar Cipher</title>
+</head>
+
+<body>
+
+	<div id="header">
+			<h2 ><u>CAESAR CIPHER</u></h2>
+	</div>
+
+	<div id="container">
+		  <form id="encryptForm">
+			<table  cellpadding="5" cellspacing="0">
+			  <tr>
+				<td><h3>Plaintext/Ciphertext:</h3></td>
+				<td><textarea id="plaintext" cols="50" rows="2" placeholder="Enter plaintext/ciphertext here"></textarea></td>
+			  </tr>
+              <tr>
+				<td><h3>Ciphertext/Plaintext:</h3></td>
+				<td><textarea id="ciphertext" cols="50" rows="2" placeholder="Appear plaintext/ciphertext here"></textarea></td></tr>
+			  <tr>
+				<td><h3>Key:</h3></td>
+				<td><input type="number" id="key" min="0" max="25" style="width:6em" /></td>
+			  </tr>
+			  <tr>
+				<td></td>
+				<td>
+						<input type="button" value="Encrypt" class="button" onclick="runEncrypt(false);"/>
+						<input type="button" value="Decrypt" class="button" onclick="runEncrypt(true);"/>
+				</td>
+				<td></td>
+			  </tr>
+			</table>
+		  </form>
+	  </div>
+	  <script src="./script.js"></script>
+	  
+	  <footer ><h5 style="color: black;margin-left: 50px;">Made by anmolagrawal</h5></footer>
+	  
+</body>
+
+</html>
